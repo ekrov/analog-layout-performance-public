@@ -129,8 +129,16 @@ interpretation rules.
 
 ## Publications
 
-The publications section is intentionally a placeholder until the authoritative
-citation list and links are supplied. See [`docs/publications.md`](docs/publications.md).
+This work has led to the following publications and research outputs:
+
+- **Leveraging Convolutional Autoencoders for Post-Layout Performance Estimation of Analog ICs** — ICECS 2025
+- **On the Exploration of Convolutional Variational Autoencoders for Analog Integrated Circuit Post-Placement Performance Regression** — SMACD25
+- **Combining Layer-Aware Images and Pre-Layout Fusion for Accurate Analog IC Post-Layout Performance Prediction** — SMACD26
+- **Generative AI for Next Generation Computer Design** — book chapter, Springer Nature
+
+Author publication record: [Google Scholar profile](https://scholar.google.com/citations?user=6ql7fJIAAAAJ&hl=pt-PT)
+
+See [`docs/publications.md`](docs/publications.md) for the publication record.
 
 ## Scope and responsible release
 
