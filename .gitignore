@@ -1,0 +1,16 @@
+# Local editing and preview files
+.DS_Store
+.venv/
+*.swp
+
+# Never add implementation or private research artifacts to the public portal
+*.py
+*.pth
+*.joblib
+*.db
+*.gds
+*.gds2
+*.dat*
+*.csv
+*.xlsx
+*.zip
