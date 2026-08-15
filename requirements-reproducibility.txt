@@ -1,0 +1,4 @@
+# Reproducibility tooling for the documentation portal.
+# Dataset payloads and private experiment code remain in the private repository.
+dvc==3.67.1
+mlflow==3.14.0

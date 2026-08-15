@@ -14,3 +14,9 @@
 *.csv
 *.xlsx
 *.zip
+
+# Local Docker and MLflow state
+runtime/
+mlruns/
+mlartifacts/
+*.sqlite
