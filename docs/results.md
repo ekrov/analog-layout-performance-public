@@ -1,13 +1,16 @@
 # Results reporting
 
-## Publication-ready table placeholder
+## Latest reported results
 
-The author will supply the approved metric values before this repository is
-announced publicly.
+The following table reproduces the latest results supplied for this research
+portal. Bold values preserve the emphasis in the source table.
 
-| Dataset | Representation | Fusion | Target mode | Split | Metric | Value |
-| --- | --- | --- | --- | --- | --- | --- |
-| Pending approval | Pending | Pending | Pending | Pending | Pending | Pending |
+| Model | Metric | `I_dd` [µA] | `G_dc` [dB] | GBW [Hz] | PM [°] |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Layer-aware approach | MAE | 1.28 | **0.022** | 926 × 10³ | 0.251 |
+| Layer-aware approach | MAPE [%] | 1.32 | **0.05** | 1.05 | 0.38 |
+| Layer-aware approach + pre-layout fusion | MAE | **0.022** | **0.022** | **121 × 10³** | **0.132** |
+| Layer-aware approach + pre-layout fusion | MAPE [%] | **0.02** | **0.05** | **0.09** | **0.21** |
 
 ## Required reporting fields
 
@@ -23,5 +26,6 @@ Every reported result should identify:
 - metric definition and units;
 - whether the value is a single run or an aggregate across repeated runs.
 
-No numbers in this document should be interpreted as a final benchmark until
-the placeholder table is replaced with author-approved results.
+The table is a high-level result summary. Dataset identity, split, latent
+dimension, training regime, and aggregation protocol should accompany future
+expanded benchmark tables.

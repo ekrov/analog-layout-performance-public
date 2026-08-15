@@ -13,9 +13,8 @@ research portal: it documents the problem, data representation, model family,
 evaluation protocol, and publications without releasing the implementation or
 proprietary datasets.
 
-> **Release status:** documentation and sanitized examples are available now.
-> Benchmark numbers and publication citations are intentionally marked for
-> approval before publication.
+> **Release status:** documentation, sanitized examples, and the latest
+> reported benchmark summary are available now.
 
 ## Problem statement
 
@@ -122,10 +121,18 @@ The input/output contract and units are documented in
 
 ## Performance results
 
-The final public benchmark table will be added after the author approves the
-experiment labels, splits, metrics, and values. Until then, see
-[`docs/results.md`](docs/results.md) for the reporting schema and the required
-interpretation rules.
+The latest reported results are summarized below. Values and emphasis are
+reproduced from the supplied results table; detailed split and protocol
+metadata should be added alongside any future benchmark expansion.
+
+| Model | Metric | `I_dd` [µA] | `G_dc` [dB] | GBW [Hz] | PM [°] |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Layer-aware approach | MAE | 1.28 | **0.022** | 926 × 10³ | 0.251 |
+| Layer-aware approach | MAPE [%] | 1.32 | **0.05** | 1.05 | 0.38 |
+| Layer-aware approach + pre-layout fusion | MAE | **0.022** | **0.022** | **121 × 10³** | **0.132** |
+| Layer-aware approach + pre-layout fusion | MAPE [%] | **0.02** | **0.05** | **0.09** | **0.21** |
+
+See [`docs/results.md`](docs/results.md) for the table and reporting guidance.
 
 ## Publications
 
