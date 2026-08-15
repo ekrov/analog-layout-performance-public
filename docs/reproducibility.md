@@ -45,6 +45,10 @@ The local MLflow UI is available at `http://localhost:5000`. It is intended
 for local inspection only; do not expose it publicly without authentication
 and an approved backend/artifact-storage policy.
 
+The repository also includes a GitHub Actions workflow that builds the Docker
+image on every push and pull request. The workflow validates the image without
+pushing it to a registry.
+
 ## Scope
 
 The public table in [`results.md`](results.md) is a curated summary. The
