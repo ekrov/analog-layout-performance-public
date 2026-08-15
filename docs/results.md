@@ -24,7 +24,9 @@ Every reported result should identify:
 - train/validation/test split and seed policy;
 - target scaling and loss;
 - metric definition and units;
-- whether the value is a single run or an aggregate across repeated runs.
+- whether the value is a single run or an aggregate across repeated runs;
+- MLflow experiment and run identifiers;
+- Git commit, DVC pointer revision, and container version or digest.
 
 The table is a high-level result summary. Dataset identity, split, latent
 dimension, training regime, and aggregation protocol should accompany future

@@ -73,7 +73,9 @@ deterministic layout feature.
 | Data processing | pandas, NumPy |
 | Hyperparameter search | Optuna with SQLite studies |
 | Classical baseline | scikit-learn Random Forest regressors |
-| Data versioning plan | DVC for private datasets and large artifacts |
+| Experiment tracking | MLflow for parameters, metrics, tags, and artifacts |
+| Data versioning | DVC for private datasets and large artifacts |
+| Reproducible environment | Docker and Docker Compose |
 | Documentation | Markdown and Mermaid diagrams |
 
 ## Dataset description
@@ -133,6 +135,17 @@ metadata should be added alongside any future benchmark expansion.
 | Layer-aware approach + pre-layout fusion | MAPE [%] | **0.02** | **0.05** | **0.09** | **0.21** |
 
 See [`docs/results.md`](docs/results.md) for the table and reporting guidance.
+
+## Reproducibility toolchain
+
+The research workflow uses Git for code and documentation revisions, DVC for
+dataset and large-artifact lineage, MLflow for experiment tracking, and Docker
+for a repeatable tooling environment. The public repository contains the
+documentation contract and neutral tooling configuration; private source code,
+datasets, and restricted run artifacts remain outside this repository.
+
+See [`docs/reproducibility.md`](docs/reproducibility.md) for the workflow and
+local Docker/MLflow commands.
 
 ## Publications
 

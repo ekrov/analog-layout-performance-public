@@ -1,0 +1,7 @@
+.git
+.dvc
+__pycache__
+mlruns
+mlartifacts
+runtime
+*.pyc
